@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.813fb48a.css",
+    "main.js": "/portfolio/static/js/main.ea66b61c.js",
+    "static/media/page2.png": "/portfolio/static/media/page2.5b6f71201144b521083d.png",
+    "static/media/page1.png": "/portfolio/static/media/page1.abafcc93b15fc4ebe3cd.png",
+    "static/media/miniproj2.png": "/portfolio/static/media/miniproj2.34e5ea873c4c16d615ee.png",
+    "static/media/miniproj4.png": "/portfolio/static/media/miniproj4.bc45a3476c12a774542e.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.d136d4d56108e2499ad4.png",
+    "static/media/page3.png": "/portfolio/static/media/page3.6a4ba2fa2beba7589ba9.png",
+    "static/media/three.png": "/portfolio/static/media/three.6d7ff628060d295cb9de.png",
+    "static/media/react.png": "/portfolio/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/mailIco.png": "/portfolio/static/media/mailIco.a9381e5f234a56afcbb4.png",
+    "static/media/live.png": "/portfolio/static/media/live.4dfc5c871223a955ca63.png",
+    "static/media/coding.png": "/portfolio/static/media/coding.1c33c544721c278c5cba.png",
+    "static/media/js.png": "/portfolio/static/media/js.075c93bea9b1ff947e08.png",
+    "static/media/css.png": "/portfolio/static/media/css.e3ded4d0e23701f04c53.png",
+    "static/media/html.png": "/portfolio/static/media/html.0aef53d039712284db6a.png",
+    "static/media/place.png": "/portfolio/static/media/place.466fe6c26b3124ae97d8.png",
+    "static/media/bee.png": "/portfolio/static/media/bee.af1e90c33e312d151502.png",
+    "static/media/githubIco.png": "/portfolio/static/media/githubIco.8fffbb3aff2808cb0077.png",
+    "static/media/miniproj1.png": "/portfolio/static/media/miniproj1.18ea365fa13f3de76ee5.png",
+    "static/media/linkedinIco.png": "/portfolio/static/media/linkedinIco.032cf8a63be2f0f4d425.png",
+    "static/media/miniproj3.png": "/portfolio/static/media/miniproj3.840771a7f819e29a925e.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.268c4375260420e8d982.png",
+    "index.html": "/portfolio/index.html",
+    "main.813fb48a.css.map": "/portfolio/static/css/main.813fb48a.css.map",
+    "main.ea66b61c.js.map": "/portfolio/static/js/main.ea66b61c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.813fb48a.css",
+    "static/js/main.ea66b61c.js"
+  ]
+}
