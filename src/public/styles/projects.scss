@@ -1,0 +1,338 @@
+.section-projects {
+  padding-top: 150px;
+  .projects-container {
+    width: 80%;
+    margin-left: 10%;
+    font-family: "Nunito", sans-serif;
+    color: #28363d;
+    @media only screen and (max-width: 1300px) {
+      width: 94%;
+      margin-left: 3%;
+    }
+  }
+  .mini {
+    margin-top: 50px;
+    h3 {
+      font-size: 3em;
+      font-weight: bold;
+      margin: 0px;
+      @media only screen and (max-width: 1300px) {
+        font-size: 2.5em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 2em;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 1.7em;
+      }
+    }
+  }
+  .project-title {
+    padding: 10px 0px 20px 20px;
+    background-color: #dee1dd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #28363d;
+
+    h2 {
+      font-size: 4em;
+      font-weight: bold;
+      margin: 0px;
+      @media only screen and (max-width: 1300px) {
+        font-size: 2.5em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 2em;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 1.7em;
+      }
+    }
+    span {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      text-align: justify;
+      @media only screen and (max-width: 1300px) {
+        font-size: 1.2em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 1em;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 0.8em;
+      }
+    }
+  }
+  .project-box {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    background-color: #dee1dd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #28363d;
+    padding: 20px;
+    @media only screen and (max-width: 1700px) {
+    }
+    @media only screen and (max-width: 1300px) {
+      padding: 15px;
+    }
+    @media only screen and (max-width: 768px) {
+      fpadding: 10px;
+    }
+    @media only screen and (max-width: 500px) {
+      padding: 5px;
+    }
+
+    .left-container {
+      width: 50%;
+      height: 100%;
+
+      overflow: hidden;
+      box-sizing: border-box;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+      border-radius: 20px;
+
+      .img-project1 {
+        width: 100%;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        margin-top: 0px;
+        transform: translateY(0%);
+        transition: transform 10s ease-in-out 0s;
+        &:hover,
+        &:focus {
+          transform: translateY(-80.5%);
+          transition: transform 10s ease-in-out 0s;
+          @media only screen and (max-width: 1300px) {
+            transform: translateY(-70.5%);
+          }
+          @media only screen and (max-width: 950px) {
+            transform: translateY(-60.5%);
+          }
+          @media only screen and (max-width: 768px) {
+            transform: translateY(-50.5%);
+          }
+          @media only screen and (max-width: 500px) {
+            transform: translateY(-40.5%);
+          }
+        }
+      }
+      .img-project2 {
+        width: 100%;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        margin-top: 0px;
+        transform: translateY(0%);
+        transition: transform 10s ease-in-out 0s;
+        &:hover,
+        &:focus {
+          transform: translateY(-85.5%);
+          transition: transform 10s ease-in-out 0s;
+          @media only screen and (max-width: 1300px) {
+            transform: translateY(-75.5%);
+          }
+          @media only screen and (max-width: 950px) {
+            transform: translateY(-65.5%);
+          }
+          @media only screen and (max-width: 768px) {
+            transform: translateY(-55.5%);
+          }
+          @media only screen and (max-width: 500px) {
+            transform: translateY(-45.5%);
+          }
+        }
+      }
+      .img-project3 {
+        width: 100%;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        margin-top: 0px;
+      }
+    }
+  }
+  .right-container {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      margin: 40px 40px 20px 40px;
+      @media only screen and (max-width: 1300px) {
+        font-size: 1.5em;
+        margin: 20px 20px 10px 20px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 1.3em;
+        margin: 0px 10px 0px 10px;
+      }
+    }
+    .description {
+      margin: 0px 40px 0px 40px;
+      font-size: 1.2em;
+      text-align: justify;
+      @media only screen and (max-width: 1300px) {
+        font-size: 1.2em;
+        margin: 0px 20px 0px 20px;
+      }
+      @media only screen and (max-width: 950px) {
+        font-size: 1em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 0.8em;
+        margin: 0px 10px 0px 10px;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 0.7em;
+        margin: 0px 10px 0px 10px;
+      }
+
+      .tech-box {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .single-box {
+          margin-top: 30px;
+          width: 60px;
+          height: 60px;
+          background-color: #658b6f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+          margin-right: 40px;
+          @media only screen and (max-width: 1110px) {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+          }
+          @media only screen and (max-width: 768px) {
+            width: 20px;
+            height: 20px;
+          }
+          cursor: pointer;
+          .tech-ico1 {
+            width: 30px;
+            margin-top: 0px;
+            margin-left: 6px;
+          }
+          .tech-ico2 {
+            width: 30px;
+            margin-top: 3px;
+            margin-left: 7px;
+          }
+          span {
+            font-size: 0.8em;
+            margin-left: 5px;
+          }
+        }
+      }
+      .links {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        @media only screen and (max-width: 1600px) {
+          flex-direction: row;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+          color: #28363d;
+          margin-bottom: 15px;
+          &:hover,
+          &:focus {
+            color: #2f575d;
+            text-decoration: underline;
+          }
+          @media only screen and (max-width: 1600px) {
+            margin-right: 10px;
+          }
+        }
+        img {
+          width: 40px;
+          margin-right: 10px;
+          @media only screen and (max-width: 1600px) {
+            margin-right: 10px;
+          }
+          @media only screen and (max-width: 1110px) {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.mini-projects-box {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0px 0px 40px 0px;
+
+  display: flex;
+  background-color: #dee1dd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: #28363d;
+
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+
+  .single-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+
+    .project-img {
+      width: 200px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      @media only screen and (max-width: 1300px) {
+        width: 180px;
+      }
+      @media only screen and (max-width: 950px) {
+        width: 140px;
+      }
+      @media only screen and (max-width: 500px) {
+        width: 120px;
+      }
+    }
+    .project-description {
+      width: 140px;
+      text-align: center;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      margin: 0px 30px 0px 30px;
+      @media only screen and (max-width: 1300px) {
+      }
+      @media only screen and (max-width: 950px) {
+      }
+      @media only screen and (max-width: 768px) {
+        margin: 0px 15px 0px 15px;
+      }
+
+      img {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+
+        width: 30px;
+      }
+    }
+  }
+}

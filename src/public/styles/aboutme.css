@@ -1,0 +1,89 @@
+.section-about {
+  height: 70vh;
+  padding-top: 150px;
+}
+.section-about .aboutme-container {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  font-family: "Nunito", sans-serif;
+}
+@media only screen and (max-width: 1300px) {
+  .section-about .aboutme-container {
+    width: 94%;
+    margin-left: 3%;
+  }
+}
+.section-about .aboutme-container .graphic {
+  margin-top: 100px;
+  margin-left: 0px;
+  width: 50%;
+  height: 400px;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+@media only screen and (max-width: 1568px) {
+  .section-about .aboutme-container .graphic {
+    display: none;
+  }
+}
+.section-about .aboutme-container .description {
+  background-color: #dee1dd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: #28363d;
+  width: 50%;
+  padding: 20px;
+}
+@media only screen and (max-width: 1568px) {
+  .section-about .aboutme-container .description {
+    width: 100%;
+  }
+}
+.section-about .aboutme-container .description h2 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 1300px) {
+  .section-about .aboutme-container .description h2 {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-about .aboutme-container .description h2 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .section-about .aboutme-container .description h2 {
+    font-size: 1.7em;
+  }
+}
+.section-about .aboutme-container .description .text {
+  text-align: justify;
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 1300px) {
+  .section-about .aboutme-container .description .text {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-about .aboutme-container .description .text {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .section-about .aboutme-container .description .text {
+    font-size: 0.8em;
+  }
+}
+.section-about .aboutme-container .description .text img {
+  margin-top: 20px;
+  width: 80px;
+}/*# sourceMappingURL=aboutme.css.map */
